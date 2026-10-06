@@ -22,9 +22,12 @@ ul{
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    border-radius: 15px;
 }
 li{
     float: left;
+    border: 3px solid red;
+    border-radius: 15px;
 }
 li a{
     display: block;
@@ -32,9 +35,12 @@ li a{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: Comic Sans ms;
 }
 li a:hover{
-    background-color: #111;
+    background-color: #ffe600;
+    border-radius: 15px;
+    color: black;
 }
 
 .vertical{
@@ -42,15 +48,18 @@ li a:hover{
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: #f1f1f1;
+    background-color: #333;
+    font-family: Comic Sans ms;
+    border-radius: 15px;
 }
 .vertical a{
     display: block;
-    color: #000;
+    color: white;
     padding: 8px 16px;
     text-decoration: none;
 }
 .vertical a:hover{
-    background-color: #555;
-    color: white;
+    background-color: #ffe600;
+    color: black;
+    border-radius: 15px;
 }
